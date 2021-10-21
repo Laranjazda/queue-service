@@ -7,12 +7,5 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class QueueServiceApplication {
-	private static final Logger logger = LoggerFactory.getLogger (QueueServiceApplication.class);
-
-	public static void main(String[] args) {
-		logger.info ("Inicindo API");
-		SpringApplication.run(QueueServiceApplication.class, args);
-		logger.info ("API iniciada");
-	}
-
+	public static void main(String[] args) {SpringApplication.run(QueueServiceApplication.class, args);}
 }
